@@ -1,36 +1,55 @@
-body{
-    background-color: black;
-    color: aliceblue;
+body {
+  background-color: black;
+  color: aliceblue;
 }
-.menu ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    list-style-type: none;
-    color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin:auto
-    
+.menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
 }
-.menu a{
-    color:antiquewhite;
-    text-decoration-line: none;
-    margin: auto;
-    text-align: center;
+.menu a {
+  color: antiquewhite;
+  text-decoration-line: none;
+  margin: auto;
+  text-align: center;
 }
-.tartalom h1{
-    text-align: center;
-    width: 80%;
+.tartalom h1 {
+  text-align: center;
+  width: 80%;
 }
-.cegmeret{
-    width: 200px;
+.cegmeret {
+  width: 200px;
 }
-.tartalom{
-    width: 80%;
-    max-width: 800px ;
-    margin:auto;
+.tartalom {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.iparag{
-    width:80% ;
-    max-width: 800px;
-    margin:auto;
+.iparag {
+  width: 200px;
+}
+.uzletiproblema {
+  width: 200px;
+}
+/***************************************************************/
+
+.EuroMac {
+  margin-bottom: 2px 
+  text-align: left;
+}
+.bonyolultrendszer {
+  font-size: medium;
+}
+
+.folyamatabra {
+  width: 500px;
+}
+.masodikdiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
