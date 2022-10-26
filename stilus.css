@@ -1,6 +1,8 @@
 body {
-  background-color: black;
+  background-color: rgb(53, 53, 53);
   color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 .menu ul {
   display: grid;
@@ -16,19 +18,28 @@ body {
   margin: auto;
   text-align: center;
 }
+.egeszoldal{
+  margin: 5%;
+ 
+}
 .tartalom h1 {
-  text-align: center;
+  text-align: left;
   width: 80%;
+
+}
+.kiknekajanljuk{
+  text-align: center;
 }
 .cegmeret {
   width: 200px;
 }
-.tartalom {
+.elsodiv {
   width: 80%;
   max-width: 800px;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  
 }
 .iparag {
   width: 200px;
@@ -39,17 +50,89 @@ body {
 /***************************************************************/
 
 .EuroMac {
-  margin-bottom: 2px 
+  margin-bottom: 20px 
   text-align: left;
-}
+} 
 .bonyolultrendszer {
-  font-size: medium;
+   font-size: medium;
+ }
+ 
+.folyamatabra  {
+   width: 450px;
+ }
+.masodikdiv  {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin:10%;
+   background-color: rgb(0, 0, 0);
+}
+/***************************************************************/
+.harmadikdiv{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin:10%;
+  background-color: rgb(0, 0, 0);
 }
 
-.folyamatabra {
-  width: 500px;
+.tartalom3{
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+ 
 }
-.masodikdiv {
+
+.scoobykepek{
+  width: 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  font-style: italic;
+  
+}
+.scoobydoojpg{
+  width: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 70%;
+  
+}
+.bozontjpg{
+  width: 100px;
+  border-radius: 70%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.vilmajpg{
+  width: 100px;
+  border-radius: 70%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.fredjpg{
+  width: 100px;
+  border-radius: 70%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.scoobymenu{
+  background-color: #2534ff; /* Kék */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  
+}
+.sales{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline red;
 }
